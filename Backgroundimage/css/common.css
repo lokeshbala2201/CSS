@@ -1,0 +1,19 @@
+
+.round img{
+    border-radius: 50%;
+}
+.border img{
+    border-width: 2px ;
+    border-style:groove;
+    border-color: black;
+    height:fit-content;
+    box-sizing: border-box;
+    padding: 2px;
+    
+    
+}
+
+.shadow img{
+    box-shadow: 0px 0px 10px 1px gray;
+}
+   

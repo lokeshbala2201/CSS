@@ -1,0 +1,271 @@
+.menu{
+    width: 100%;
+    height: 10vh;
+    box-sizing: border-box;
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    min-width: min-content;
+    position:sticky;
+    background-color: white;
+  
+    
+    
+}
+.menubar{
+   
+    height: max-content;
+    width: 80%;
+   
+    margin: 0 auto;
+    
+    
+   
+}
+.menubar .logo{
+    display: inline;
+    float: left;
+    width:150px;
+    height:50px;
+}
+.options{
+    display: inline;
+    vertical-align: middle;
+  
+    
+}
+.options >ul{
+    display: inline;
+    
+}
+.option{
+    display: inline;
+ 
+    padding: 0.5rem;
+}
+.options a{
+    text-decoration: none;
+   
+}
+.option a{
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+}
+.options li{
+    display: inline;
+    list-style-type: none;
+    font-size: large;
+    font-weight: bold;
+    padding: 0.8rem 1.1rem;
+
+   
+
+}
+.options li:hover{
+    background-color:rgba(216, 216, 216, 0.547);
+    border-radius: 0.6rem;
+    
+}
+.buttons{
+    display: inline-block;
+    padding-left: 5rem;
+
+}
+
+    
+
+.buttons .button1{
+    
+    padding: 0.5rem 1rem;
+    background-color: transparent;
+    color: orangered;
+    font-size: large;
+    font-weight: bold;
+    border: 1px solid orangered;
+    border-radius: 0.5rem;
+    margin-right: 1rem;
+    
+}
+.buttons .button2{
+    background-color: orangered;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    border: 1px solid orangered;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+.buttons .button1:hover{
+    background-color: rgba(235, 156, 128, 0.205);
+}
+.buttons .button2:hover{
+    background-color:rgba(255, 68, 0, 0.925);
+}
+
+
+.products{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown{
+    display: none;
+    position: absolute;
+    z-index: -1;
+    background-color: black;
+    min-width: 160px;
+}
+.dropdown a{
+    text-decoration: none;
+    display: block;
+    color: blue;
+}
+.main{
+    
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+}
+.title h2{
+    color: darkblue;
+
+} 
+.title p{
+    color: darkblue;
+    font-size: 4.4rem;
+    font-weight: bold;
+}
+.title{
+    padding: 0.7rem 0;
+}
+.cards{
+    width: 50%;
+    float: left;
+    background-color:#cce7f3cf;
+    height: 127vh;
+   
+
+}
+.card1{
+    padding: 0.5rem 1rem;
+    width: 70%;
+    margin: 3rem auto;
+    border: 1px solid rgba(190, 190, 190, 0.864);
+    border-radius: 2rem;
+    background-color: white;
+    
+  
+}
+.card1 p{
+    font-size: large;
+}
+.card1 h2{
+    color:rgb(1, 1, 69);
+}
+.card2 p:last-child{
+    color: orangered;
+}
+
+.forms{
+    width: 50%;
+    height: 125vh;
+    background-color:#cce7f3cf;
+    padding: 0.5rem 0;
+    margin-left: 45%;
+ 
+
+    
+    
+    
+    
+   
+    
+
+}
+.formdiv{
+    background-color:#cce7f3cf;
+}
+.form{
+    border-radius: 0.7rem;
+    margin: 0px auto;
+    padding-top: 5rem;
+    padding-left:7rem ;
+    
+    padding-bottom: 2rem;
+    border: 1px solid rgba(190, 190, 190, 0.864);
+    margin-left: 10%;
+    background-color: white;
+ 
+    
+}
+
+.form input{
+    margin-bottom: 1rem;
+    width: 50%;
+    height:1.8rem;
+    border: 1px solid rgba(190, 190, 190, 0.864);
+    border-radius: 0.3rem;
+}
+.form sup{
+    color: red;
+}
+.signin{
+    background-color: orangered;
+    color: white;
+    height: 20px;
+    font-weight: bold;
+}
+.form  p{
+    display: inline-block;
+    font-size: large;
+}
+.forms a{
+    text-decoration: none;
+}
+.form a:hover{
+    color: red;
+}
+.photocard .description{
+    vertical-align: middle;
+}
+.photocard img{
+    display: inline;
+    float: left;
+    margin-right: 1rem;
+    width: 10rem;
+    height: 10rem;
+    padding-left: 5px;
+}
+.photocard{
+    width:30rem;
+    height:10rem;
+    border:  1px solid rgba(190, 190, 190, 0.864);
+    border-radius:0.7rem;
+    margin-bottom: 5rem;
+   
+}
+.photocard .description p{
+    font-size: small;
+}
+.location >p{
+    text-align: center;
+    line-height: 3rem;
+    font-size: 50px;
+    font-weight: bold;
+}
+.location{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+
+
+
+

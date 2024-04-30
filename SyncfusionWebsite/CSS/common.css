@@ -1,0 +1,243 @@
+.row{
+    background-color:black;
+ 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+img{
+    position: absolute;
+    width: 160px;
+    height: 36px;
+    float: left;
+   background-color: black;
+   padding-top: 5px;
+}
+.container{
+    margin: 0px 4rem;
+    background-color: rgb(0, 0, 0);
+    width: 80%;
+    
+    height: 36px;
+    margin-left: 10%;
+    
+   
+}
+.nav{
+    display: inline;
+}
+.nav li{
+    display: inline;
+    list-style-type: none;
+    padding: 17px 0.6rem;
+    
+    
+    
+    
+   
+    
+    
+}
+.hover:hover {
+    background-color: rgba(255, 255, 255, 0.351);
+}
+.freetrial a:hover{
+    background-color: white;
+    color: black;
+}
+.try a:hover{
+    background-color: rgba(0, 0, 255, 0.753);
+}
+li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: small;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+.nav ul{
+    float: right;
+    background-color: black;
+}
+ul li:nth-child(5) a{
+    border: 0.1rem solid white;
+    padding: 7px;
+    border-radius: 5px;
+    
+}
+ul li:last-child a{
+    
+    padding: 7px;
+    border-radius: 5px;
+    background-color: blue;
+}
+ul li:last-child a:hover{
+    background-color: rgba(0, 0, 255, 0.795);
+}
+.content{
+    background-color: blue;
+    margin-top: 14px;
+    height: 29.5vh;
+  
+
+}
+.content .h1{
+    color:white;
+    text-align: center;
+    margin-bottom: 5px;
+    font-weight: 700;
+    padding-left: 20%;
+    padding-right: 20%;
+    line-height: 50px;
+    font-size: 18px;
+    font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+}
+.content .h4{
+    color: white;
+    text-align: center;
+    line-height: 32px;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+}
+.license{
+    text-align: center;
+   
+  
+}
+   
+
+
+.license a{
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+    color: white;
+    padding:  11px 19Px;
+    margin-right: 4rem;
+    text-align: center;
+    margin: 0px;
+    background-color: darkblue;
+}
+.license a:hover{
+    color: blue;
+    background-color: white;
+}
+.libar{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: max-content;
+    text-align: center;
+    display: inline;
+    width: 100%;
+    height: max-content;
+    align-items: center;
+    
+   
+}
+#whole{
+    justify-items: center;
+    margin-left: 3.5rem;
+}
+
+.libar h2{
+    text-align:center;
+    margin-bottom: 5px;
+    font-weight: 700;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-left: 0px;
+    font-size: 29px;
+    font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+}
+.card1{
+    height: max-content;
+    width: 25%;
+    
+    float: left;
+    line-height: 28px;
+    border: 1px solid rgba(128, 128, 128, 0.875) ;
+    border-radius: 0.5rem;
+    margin-right: 2rem;
+    
+    
+}
+.card1:first-child{
+    margin-left: 5rem;
+}
+.card1:hover{
+    box-shadow: 0px 0px 1rem rgba(0, 0, 0, 0.358);
+}
+.card1 .content1{
+    margin-top: 30px;
+}
+.card1 .euro{
+    font-size: larger;
+    font-weight: bold;
+}
+.card1 .rupee{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.card1 .valid{
+    font-size: medium;
+}
+.card1 .content3{
+    font-size: large;
+}
+.buy a{
+    padding: 10px;
+    width: 50%;
+    display: inline-block;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    background-color: blue;
+    font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+    text-decoration: none;
+    
+}
+.libar hr{
+    width: 75%;
+   
+}
+.platform{
+    text-align: left;
+}
+.platform hr{
+    
+    height: 3px;
+    width: 10%;
+    background-color: black;
+    margin-left: 2.7rem;
+    
+    line-height: 20px;
+}
+.platform h3{
+   
+    margin-left: 2.7rem;
+  
+}
+.list{
+    text-align: left;
+    margin-left: 1rem;
+}
+.list li{
+    list-style-image:url(../images/tick.png);
+   vertical-align: middle;
+    
+    font-size: medium;
+
+}
+.card1:first-child{
+    margin-left: 5rem;
+}
+
+
+
+
+
+
+
+

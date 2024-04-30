@@ -1,0 +1,144 @@
+.normal li{
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+    
+    
+}
+.normal a{
+    text-decoration: none;
+    color: white;
+}
+.button1{
+    background-color: rgba(200, 33, 33, 0.871);
+}
+.button2{
+    background-color:dodgerblue;
+}
+.button3{
+    background-color:green;
+}
+.button4{
+    background-color:chocolate;
+}
+.button5{
+    background-color:darkcyan;
+}
+.button6{
+    background-color:black;
+}
+.button7{
+    background-color:rgba(72, 70, 70, 0.489);
+}
+.medium li{
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+}
+.medium a{
+    text-decoration: none;
+}
+.medium1{
+    border: 1px solid wheat;
+}
+.medium2{
+   
+    border-radius: 3px;
+    background-color:rgba(72, 70, 70, 0.489);
+
+}
+.medium3{
+    border: 1px solid rgb(41, 72, 208);
+    border-radius: 3px;
+}
+.medium4{
+    border: 1px solid red;
+    border-radius: 6px;
+}
+.medium4 a{
+    color: red;
+}
+.medium5{
+    border: 1px solid rgb(1, 151, 1);
+    border-radius: 25%;
+}
+.medium6{
+    background-color: red;
+}
+.medium6 a{
+color: white;
+text-shadow: 0px 2px black;
+}
+.medium7{
+    background-color: black;
+}
+.medium7 a{
+    color: white;
+
+}
+.round li{
+    display: inline;
+    padding:10px;
+
+}
+.round a{
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: bold;
+    border-radius: 50%;
+    background-color: aqua;
+    padding: 10px 17px;
+}
+.round1 a{
+    color: white;
+    
+    background-color: black;
+}
+
+
+.round2 a{
+    color: white;
+    background-color:darkcyan;
+}
+
+.round3 a{
+    color: rgb(0, 0, 0);
+    background-color:rgba(72, 70, 70, 0.489);
+}
+.nav li{
+    display: inline;
+    list-style-type: none;
+    padding: 10px 0px;
+    margin: 0px 0px;
+    
+}
+.nav a{
+    text-decoration: none;
+    padding: 20px;
+}
+.nav1{
+    background-color: black;
+}
+.nav1 a{
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+.nav2{
+    background-color:darkcyan;
+}
+.nav2 a{
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+.nav3{
+    background-color:rgba(72, 70, 70, 0.489);
+}
+.nav3 a{
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+

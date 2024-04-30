@@ -1,0 +1,36 @@
+p {
+    font-weight: bolder;
+    font-style: italic;
+    text-transform: capitalize;
+    text-decoration: none;
+    line-height: 2rem;
+    letter-spacing: 0.2rem;
+    word-spacing: 0.01rem;
+    text-align: justify;
+    
+
+}
+p::first-letter{
+    color: red;
+    font-size: xx-large;
+    vertical-align: middle;
+    
+}
+.link:link{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 0 5px black;
+    
+}
+.link:active{
+    color: cadetblue;
+}
+.link:visited{
+    color: red;
+}
+
+.wrapper{
+    min-width: 25%;
+    max-width: 75%;
+
+}
